@@ -19,16 +19,64 @@ const Container= styled.div`
   justify-content: space-between;
 `;
 
-const Left = styled.div``;
-const Title = styled.h1``;
-const WhatWeDo = styled.div``;
-const Line = styled.img``;
-const Subtitle = styled.h2``;
-const Desc = styled.p``;
-const Button = styled.button``;
+const Left = styled.div`
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+`;
+const Title = styled.h1`
+    font-size: 74px;
+`;
+const WhatWeDo = styled.div`
+    display: flex;
+    align-items: center;
+    gap: 10px;
+`;
+const Line = styled.img`
+    height: 5px;
+`;
+const Subtitle = styled.h3`
+  color: #A64FE0;
+  font-size: 20;
+`;
+const Desc = styled.p`
+    font-size: 24px;
+    color: lightgrey;
+`;
+const Button = styled.button`
+  background-color: #A64FE0;
+  color: white;
+  font-weight: 500;
+  width: 100px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+`;
 
-const Right = styled.div``;
-const Img = styled.img``;
+const Right = styled.div`
+    flex: 3;
+    position: relative;
+`;
+const Img = styled.img`
+    width: 400px;
+    object-fit: contain;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    animation: animate 2s infinite ease alternate;
+
+    @keyframes animate{
+      to{
+        transform: translateY(35px);
+      }
+    }
+`;
 
 const Hero = () => {
   return (
@@ -37,11 +85,12 @@ const Hero = () => {
       <Container>
         <Left>
           <Title>Dream. Believe. Engineer.</Title>
+          <Desc>Hi! I am Soumi De. Let's explore.</Desc>  
           <WhatWeDo>
             <Line src="./img/line.png"/>
             <Subtitle>Developer | UI/UX Designer</Subtitle>
           </WhatWeDo>  
-          <Desc>Hi! I am Soumi De.</Desc>    
+            
           <Button>Learn More</Button>  
         </Left>
         <Right>
