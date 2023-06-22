@@ -55,7 +55,7 @@ const ListItems = styled.li`
 
     &:hover{
       ::after{
-        animation: moveText 0.5s linear both;
+        animation: moveText 0.7s linear both;
 
         @keyframes moveText{
           to{
