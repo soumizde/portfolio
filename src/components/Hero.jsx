@@ -61,7 +61,7 @@ const Right = styled.div`
     position: relative;
 `;
 const Img = styled.img`
-    width: 400px;
+    width: 500px;
     object-fit: contain;
     position: absolute;
     top: 0;
@@ -94,7 +94,7 @@ const Hero = () => {
           <Button>Learn More</Button>  
         </Left>
         <Right>
-          <Img src="./img/moon.png"/>
+          <Img src="./img/moon.svg"/>
         </Right>
       </Container>
     </Section>
