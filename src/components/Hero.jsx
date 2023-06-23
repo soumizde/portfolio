@@ -85,7 +85,7 @@ const Hero = () => {
       <Container>
         <Left>
           <Title>Dream. Believe. Engineer.</Title>
-          <Desc>Hi! I am Soumi De. Let's explore.</Desc>  
+          <Desc>Hi! I am Soumi De.</Desc>  
           <WhatWeDo>
             <Line src="./img/line.png"/>
             <Subtitle>Developer | UI/UX Designer</Subtitle>
