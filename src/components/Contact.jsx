@@ -81,7 +81,7 @@ const Contact = () => {
           </Form>
         </Left>
         <Right>
-
+  
         </Right>
       </Container>
     </Section>
