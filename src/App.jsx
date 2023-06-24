@@ -3,7 +3,6 @@ import About from "./components/About";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import styled from "styled-components";
-import Test from "./components/Test";
 
 const Container = styled.div`
   height: 100vh;
@@ -26,7 +25,6 @@ function App() {
       <About/>
       <Projects/>
       <Contact/>
-      <Test/>
     </Container>
   )
 }
