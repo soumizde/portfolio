@@ -101,7 +101,7 @@ const Hero = () => {
               <OrbitControls enableZoom={false} autoRotate={true}/>
               <ambientLight intensity={1}/>
               <directionalLight position={[3,2,1]}/>
-              <Cube/>
+              
             </Canvas>
             <Img src="./img/moon.svg"/>
         </Right>
