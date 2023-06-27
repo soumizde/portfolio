@@ -6,7 +6,7 @@ import Lantern from './Lantern'
 const Blogging = () => {
   return (
     <Canvas>
-        <Stage environment="city" intensity={0.6}>
+        <Stage environment="city" intensity={2.5}>
             <Lantern/>
         </Stage>
         <OrbitControls enableZoom={false}/>
