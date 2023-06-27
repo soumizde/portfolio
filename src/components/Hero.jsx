@@ -60,11 +60,11 @@ const Button = styled.button`
 `;
 
 const Right = styled.div`
-    flex: 3;
+    flex: 2;
     position: relative;
 `;
 const Img = styled.img`
-    width: 350px;
+    width: 400px;
     object-fit: contain;
     position: absolute;
     top: 0;
@@ -72,11 +72,6 @@ const Img = styled.img`
     left: 0;
     right: 0;
     margin: auto;
-    animation: animate 2s infinite ease alternate;
-
-    @keyframes animate{
-      to{
-        transform: translateY(35px);
       }
     }
 `;
@@ -97,7 +92,7 @@ const Hero = () => {
           <Button>Learn More</Button>  
         </Left>
         <Right>
-            <Canvas>
+        <Canvas>
               <OrbitControls enableZoom={false}/>
               <ambientLight intensity={1}/>
               <directionalLight position={[3,2,1]}/>
