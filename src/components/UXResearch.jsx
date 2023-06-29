@@ -7,7 +7,7 @@ const UXResearch = () => {
   return (
     <Canvas>
         <Stage environment="city" intensity={2.5}>
-            <Uxr/>
+            <Uxr scale={[0.5, 0.5, 0.5]}/>
         </Stage>
         <OrbitControls enableZoom={false}/>
     </Canvas>
