@@ -6,7 +6,7 @@ import Blog from './Blog'
 const Blogging = () => {
   return (
     <Canvas>
-        <Stage environment="city" intensity={2.5}>
+        <Stage environment="city" intensity={2}>
             <Blog/>
         </Stage>
         <OrbitControls enableZoom={false}/>
